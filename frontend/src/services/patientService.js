@@ -1,7 +1,7 @@
 // src/services/patientService.js
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://hospital-management-system-2-58op.onrender.com/api/patients' });
+const API = axios.create({ baseURL: 'https://hospital-m9e5.onrender.com/api/patients' });
 
 export const fetchPatients = () => API.get('/');
 export const fetchPatientById = (id) => API.get(`/${id}`);

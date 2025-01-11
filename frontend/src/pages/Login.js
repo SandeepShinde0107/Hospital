@@ -14,7 +14,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://hospital-management-system-2-58op.onrender.com/auth/login", formData);
+      const response = await axios.post("https://hospital-m9e5.onrender.com/auth/login", formData);
 
       // Save token in localStorage
       localStorage.setItem("token", response.data.token);

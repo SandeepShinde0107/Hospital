@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://hospital-management-system-2-58op.onrender.com/api/diet-charts' });
+const API = axios.create({ baseURL: 'https://hospital-m9e5.onrender.com/api/diet-charts' });
 
 
 export const fetchDietCharts = () => API.get('/');

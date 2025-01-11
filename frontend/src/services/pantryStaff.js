@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'https://hospital-management-system-2-58op.onrender.com/api/pantry-staff' });
+const API = axios.create({ baseURL: 'https://hospital-m9e5.onrender.com/api/pantry-staff' });
 
 // Fetch all pantry staff
 export const fetchPantryStaff = () => API.get('/');

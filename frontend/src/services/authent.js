@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = 'https://hospital-management-system-2-58op.onrender.com';
+const API_URL = 'https://hospital-m9e5.onrender.com';
 const API = axios.create({
   baseURL: `${API_URL}/auth`,
   headers: { "Content-Type": "application/json" },

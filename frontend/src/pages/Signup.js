@@ -13,7 +13,7 @@ const Signup = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("https://hospital-management-system-2-58op.onrender.com//auth/register", formData);
+      const response = await axios.post("https://hospital-m9e5.onrender.com/auth/register", formData);
       alert(response.data.message);
 
       // Redirect to login page after successful signup
